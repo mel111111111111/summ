@@ -1,0 +1,130 @@
+	<html>
+<head>
+    <title>Food E-Commerce</title>
+    <link rel="stylesheet" href="sum3.css">
+</head>
+<body>
+
+<header class="header-canva">
+    <h1>Online Food</h1>
+    <p>Belanja makanan kesukaanmu</p>
+</header>
+
+<div id="cartBox">
+    <h3>🛒 Keranjang</h3>
+    <ul id="cartList"></ul>
+    <p id="totalHarga">Total: Rp 0</p>
+</div>
+
+<nav>
+    <ul>
+        <li>Food
+            <ul class="submenu">
+                <li>Breakfast</li>
+                <li>Traditional</li>
+            </ul>
+        </li>
+        <li>Drinks
+            <ul class="submenu">
+                <li>Cold Drink</li>
+                <li>Hot Drink</li>
+            </ul>
+        </li>
+        <li>Snack
+            <ul class="submenu">
+                <li>Light</li>
+                <li>Heavy</li>
+            </ul>
+        </li>
+        <li>Discount
+            <ul class="submenu">
+                <li>Diskon</li>
+                <li>Bundle</li>
+            </ul>
+        </li>
+        <li>Registration
+            <ul class="submenu">
+                <li>Daftar</li>
+                <li>Login</li>
+            </ul>
+        </li>
+    </ul>
+</nav>
+
+<h2>RegisterForm</h2>
+
+<form id="formPendaftaran">
+	Nama:<br>
+<input type="text" id="nama"><br><br>
+
+Kelas:<br>
+<input type="text" id="kelas"><br><br>
+
+<button type="button" id="okBTN">Daftar</button>
+<button type="button" id="clearBTN">Clear</button>
+</form>
+
+<div id="hasil"></div>
+
+<h2>Food Product</h2>
+
+<div class="produk">
+
+<div class="card">
+	<img src="beef.jfif">
+		<h3>Stew</h3>
+		<p>Boeuf Bourguignon</p>
+		<p>Harga: Rp 150.000</p>
+	<button onclick="beli('Stew',150000)">Buy</button>
+</div>
+
+<div class="card">
+	<img src="cro.jpg">
+		<h3>Sandwich</h3>
+		<p>Croque monsieur</p>
+		<p>Harga: Rp 75.000</p>
+	<button onclick="beli('Breakfast',75000)">Buy</button>
+</div>
+
+<div class="card">
+	<img src="soup.jfif">
+		<h3>Soup</h3>
+		<p>Soupe à l'oignon</p>
+		<p>Harga: Rp 135.000</p>
+	<button onclick="beli('Soupe à l'oignon',135000)">Buy</button>
+</div>
+
+<div class="card">
+	<img src="break.jfif">
+		<h3>Breakfast</h3>
+		<p>le petit-déjeuner</p>
+		<p>Harga: Rp 68.000</p>
+	<button onclick="beli('le petit-déjeuner',68000)">Buy</button>
+</div>
+
+<div class="card">
+	<img src="rose.jfif">
+		<h3>Wine</h3>
+		<p>Rosé Piscine</p>
+		<p>Harga: Rp 207.000</p>
+	<button onclick="beli('Rosé Piscine',207000)">Buy</button>
+</div>
+
+<div class="card">
+	<img src="vin.jpg">
+		<h3>Wine</h3>
+		<p>Vin chaud au Grand Marnier</p>
+		<p>Harga: Rp 920.000</p>
+	<button onclick="beli('Vin chaud au Grand Marnier',920000)">Buy</button>
+</div>
+
+</div>
+
+<footer>
+    <p>© 2026 Food Store | Dibuat oleh siswa SMA</p>
+</footer>
+
+<script src="sum2.js"></script>
+
+</body>
+</html>

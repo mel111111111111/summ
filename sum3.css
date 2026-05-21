@@ -1,0 +1,102 @@
+body{
+	font-family: Sans sherif;
+	margin:0;
+	background:#d8d8d8;
+}
+
+header{
+	background: black;
+	color:grey;
+	padding:20px;
+	text-align:center;
+}
+
+nav ul{
+	list-style:none;
+	background:lightgray;
+	padding:10px;
+}
+
+nav ul li{
+	display:inline-block;
+	margin-right:20px;
+	position:relative;
+	cursor:pointer;
+}
+
+.submenu{
+	display:none;
+	position:absolute;
+	background:white;
+	padding:10px;
+	border:1px solid black;
+	text-align:center;	
+	justify-content: center;
+}
+
+nav ul li:hover .submenu{
+	display:block;
+}
+
+.produk{
+	display:flex;
+	flex-wrap:wrap;
+	gap:20px;
+	padding:20px;
+}
+
+.card{
+	border:1px solid black;
+	padding:10px;
+	width:150px;
+	text-align:center;
+	background:white;
+}
+
+.card img{
+	width:100%;
+}
+
+button{
+	margin-top:5px;
+	padding:5px;
+}
+
+#hasil{
+	margin:20px;
+	border:1px solid black;
+	padding:10px;
+	width:200px;
+	background:white;
+}
+
+footer{
+	background:black;
+	color:white;
+	text-align:center;
+	padding:10px;
+}
+
+.header-canva{
+	background-size: cover;
+	background-position: center;
+	color: white;
+	text-align: center;
+	padding: 60px;
+}
+
+#cartBox{
+	position: fixed;
+	right: 10px;
+	top: 100px;
+	background: white;
+	border: 1px solid black;
+	padding: 10px;
+	width: 200px;
+}
+
+#cartList{
+	list-style:none;
+	padding:0;
+	font-size:14px;
+}
